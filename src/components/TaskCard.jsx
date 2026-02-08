@@ -13,7 +13,7 @@ export default function TaskCard({ task, onEdit, onDelete }) {
     <div
       ref={setNodeRef}
       style={style}
-      className="bg-blue-200 p-6 rounded shadow-xl text-black cursor-pointer hover:shadow hover:shadow-gray-500 "
+      className="bg-white p-6 rounded shadow-xl text-black cursor-pointer hover:shadow hover:shadow-gray-500 "
      >
       {/* Drag handle + Title */}
       <div
